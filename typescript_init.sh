@@ -8,12 +8,8 @@ else
   cd $1
 
   npm init --y
-  npm i -D typescript ts-node
-  npm i -D @types/node
-  npm i
+  npm i -D typescript ts-node @types/node
   tsc --init
 
   mkdir src
-  cd src
-  touch index.ts
 fi
