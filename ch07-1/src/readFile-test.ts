@@ -7,3 +7,4 @@ readFile('./package.json', (err: Error, buffer: Buffer) => {
     console.log(content) // package.json 내용
   }
 })
+// 코드는 멈추지 않고 계속 실행
