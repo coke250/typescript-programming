@@ -1,6 +1,6 @@
 import * as R from 'ramda'
 import { makeLens, getter, setter, setterUsingFunc } from './lens'
-import { IPerson, makeRandomIPerson } from './model/person'
+import { IPerson, makeRandomIPerson } from './models/person'
 
 const nameLens = makeLens('name')
 const getName = getter(nameLens)

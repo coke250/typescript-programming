@@ -1,5 +1,5 @@
 import * as R from 'ramda'
-import { IPerson, makeRandomIPerson } from './model/person'
+import { IPerson, makeRandomIPerson } from './models/person'
 
 const getName = R.pipe(R.prop('name'))
 

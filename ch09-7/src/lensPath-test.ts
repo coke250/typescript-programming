@@ -1,6 +1,6 @@
 import * as R from 'ramda'
 import { getter, setter, setterUsingFunc } from './lens'
-import { IPerson, makeRandomIPerson } from './model/person'
+import { IPerson, makeRandomIPerson } from './models/person'
 
 const longitudeLens = R.lensPath(['location', 'coordinates', 'longitude'])
 const getLongitude = getter(longitudeLens)
